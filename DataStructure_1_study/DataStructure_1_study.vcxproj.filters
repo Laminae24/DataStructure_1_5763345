@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DataStructure_1_5763345.c">
+    <ClCompile Include="1완성_박주혁_5763345_0311.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
