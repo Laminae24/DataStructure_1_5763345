@@ -5,14 +5,14 @@ int main(void)
 {
     char string[100];
     int i;
-    int length = 0;
 
     printf("문자열을 입력하세요 : ");
-    scanf("%[^\n]", string);  // 개행 문자가 오기 전까지 모든 문자 입력받기
+    scanf("%[^\n]", string);  // 띄워쓰기 !등 모든 문자 입력받기
 
     // 문자열 길이 구하기
+    int length = 0;
     while (string[length] != '\0') {
-        length++;
+        length++;  
     }
 
     // 대소문자 변환
@@ -25,7 +25,7 @@ int main(void)
         }
     }
 
-    // 결과 출력
+    // 결과
     printf("문자열 길이 : %d\n", length);
     printf("변환된 문자열 : %s\n", string);
 
