@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 
-#define MAX_LEN 100  // 입력 가능한 최대 길이
+#define MAX_LEN 10000  // 입력 가능한 최대 길이
 
 // 사칙연산 수행 함수
 double calculate(double a, double b, char op) {
